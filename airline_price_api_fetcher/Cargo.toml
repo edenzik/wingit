@@ -1,0 +1,10 @@
+[package]
+name = "airline_price_api_fetcher"
+version = "0.1.0"
+authors = ["Eden Zik <eden.zik@hpe.com>"]
+
+[dependencies]
+rusoto_core = "0.32.0"
+rusoto_s3 = "0.32.0"
+rusoto_credential = "0.11.0"
+futures = "0.1.20"
